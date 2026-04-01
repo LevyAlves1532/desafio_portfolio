@@ -34,27 +34,7 @@
     <body class="bg-[#16181D]">
         <main class="">
             <!-- Hero Section -->
-            <section style="background-image: url(./assets/images/bg-hero.png);" class="py-[120px] bg-cover bg-center bg-no-repeat">
-                <div class="max-w-[1040px] mx-auto px-5 flex flex-col items-center">
-                    <img src="./assets/images/hero.png" alt="Profile Hero" class="p-1 border-2 border-red-400 rounded-full mb-[56px]">
-
-                    <p class="text-xl font-medium text-gray-500 mb-[8px] font-inconsolata">Hello World! Meu nome é <span class="font-bold text-red-300 font-inconsolata">Martina Santos</span> e sou</p>
-                    <h1 class="text-[56px] font-bold text-gray-100 mb-5 font-maven">Desenvolvedora PHP</h1>
-
-                    <p class="max-w-[680px] text-center text-sm text-gray-300 mb-[80px]">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
-
-                    <div class="flex gap-[12px]">
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">PHP</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Laravel</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Node</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Filament</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Knex</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Fastify</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">Git</span>
-                        <span class="py-[4px] px-[12px] rounded-full bg-green-400 font-inconsolata font-medium">MySQL</span>
-                    </div>
-                </div>
-            </section>
+            <?php require('./components/hero.php'); ?>
 
             <!-- Projects Section -->
             <section class="">
