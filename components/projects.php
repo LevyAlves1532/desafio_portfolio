@@ -45,13 +45,13 @@
             <img src="<?= $project['image'] ?>" alt="" class="">
         </div>
 
-        <div class="flex-1 flex flex-col">
+        <div class="flex-1 flex flex-col max-md:gap-[21px]">
             <div class="flex-1">
                 <p class="text-[16px] font-maven text-white font-bold mb-[8px]"><?= $project['title'] ?></p>
                 <p class="text-[14px] text-gray-200"><?= $project['description'] ?></p>
             </div>
 
-            <div class="flex gap-[8px]">
+            <div class="flex gap-[8px] max-md:flex-wrap">
                 <?php foreach ($project['stacks'] as $stack): ?>
                     <span class="py-[2px] px-[8px] text-[12px] rounded-full bg-<?= $stack['color'] ?>-400 font-inconsolata font-medium uppercase"><?= $stack['stack'] ?></span>
                 <?php endforeach; ?>

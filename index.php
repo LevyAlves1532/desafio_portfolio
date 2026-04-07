@@ -44,7 +44,7 @@
                         <h2 class="text-[24px] font-maven text-white font-bold">Veja os projetos em destaque</h2>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-[24px]">
+                    <div class="grid grid-cols-2 gap-[24px] max-md:grid-cols-1">
                         <?php require('./components/projects.php'); ?>
                     </div>
                 </div>
