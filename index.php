@@ -51,17 +51,15 @@
             </section>
 
             <!-- Social Links Section -->
-            <section class="">
-                <p class=""></p>
-                <h3 class=""></h3>
-                <p class=""></p>
+            <section style="background-image: url(./assets/images/bg-contacts.png);" class="pt-[128px] pb-[200px] bg-cover bg-center bg-no-repeat">
+                <div class="max-w-[460px] w-full mx-auto px-5 text-center">
+                    <p class="font-inconsolata mb-[8px] text-xl text-purple-400">Contato</p>
+                    <h3 class="font-maven font-bold mb-[8px] text-2xl text-gray-100">Gostou do meu trabalho?</h3>
+                    <p class="text-base text-gray-200 mb-[48px]">Entre em contato ou acompanhe as minhas redes sociais!</p>
 
-                <div class="">
-                    <a href="#" class="">
-                        <img src="" alt="" class="">
-                        <p class=""></p>
-                        <img src="" alt="" class="">
-                    </a>
+                    <div class="flex flex-col px-[10px] gap-[16px]">
+                        <?php require('./components/contacts.php') ?>
+                    </div>
                 </div>
             </section>
         </main>
